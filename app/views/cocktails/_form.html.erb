@@ -1,0 +1,7 @@
+<div class="container">
+  <%= simple_form_for(@cocktail) do |c| %>
+    <%= c.input :name %>
+    <%= c.input :image_url %>
+    <%= c.submit "confirm", class: "btn btn-primary" %>
+    <% end %>
+</div>
